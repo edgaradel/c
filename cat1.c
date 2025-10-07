@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <cs5.h>
+
+int main(void)
+{
+    int n = get_int("What's n? ")
+
+    for (int i = 0; i < n)
+}
