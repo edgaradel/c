@@ -1,9 +1,12 @@
 #include <stdio.h>
-#include <cs5.h>
+#include <cs50.h>
 
 int main(void)
 {
-    int n = get_int("What's n? ")
+    int n = get_int("What's n? ");
 
-    for (int i = 0; i < n)
+    for (int i = 0; i < n; i ++)
+    {
+        printf("meow");
+    }
 }
